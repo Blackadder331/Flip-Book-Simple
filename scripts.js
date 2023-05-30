@@ -32,3 +32,14 @@ function flipPreviousPage() {
     flipPage(currentPage, "backward");
   }
 }
+
+window.addEventListener("keydown", function (event) {
+  switch (event.key) {
+    case "ArrowLeft":
+      flipPreviousPage();
+      break;
+    case "ArrowRight":
+      flipNextPage();
+      break;
+  }
+});

@@ -130,3 +130,12 @@ button {
   z-index: 1;
   background-image: url(./images/6.png);
 }
+
+button {
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 1rem 1.75rem;
+  margin: 1rem;
+}
